@@ -6,14 +6,15 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="content/img/logo.jpg">
   <title>Firma Mydlaki &reg;</title>
 </head>
-<body>
+<body class="bg-gradient">
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <nav class="navbar navbar-expand-lg rounded-bottom lead bg-gradient">
             <div class="container-fluid rounded-bottom">
-                <a href="#">
-                    <img src="content/img/logo.jpg" class="rounded-circle" alt="Logo firmy Mydlaki" width="165" height="165">
+                <a href="#" title="Logo firmy, strona główna">
+                    <img src="content/img/logo.jpg" class="rounded-circle" alt="Logo firmy Mydlaki" width="150" height="150">
                 </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -21,144 +22,208 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#o-nas">O nas</a>
+                    <a class="nav-link active" aria-current="page" href="#o-nas" title="Odnośnik do sekcji O nas">O nas</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Nasze produkty
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#swieczki">Świeczki zapachowe</a></li>
+                      <li><a class="dropdown-item" href="#mydla">Mydła</a></li>
+                    </ul>
+                  </li>
+          
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#kontakt" title="Odnośnik do sekcji Kontaktu">Kontakt</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#oferta">Oferta</a>
+                    <a class="nav-link" href="#sociale" title="Odnośnik do sekcji Social Mediów">Social Media</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#kontakt">Kontakt</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#sociale">Social media</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#sociale">FAQ</a>
+                    <a class="nav-link" href="#faq" title="Odnośnik do sekcji Najczęściej Zadawanych Pytań">FAQ</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
     </header>
-    <main>
+    <main class="shadow-lg bg-grey bg-gradient">
       <section class="d-flex align-items-center justify-content-center align-middle" id="o-nas">
             <h2 class="">O nas</h2>
-            <p class="">Jesteśmy mydlakami, Roszkowski wstaw tu coś</p>
+            <p class="lead">
+              Mydlaki to firma prowadzona z pasją, specjalizująca się w produkcji wyjątkowych świeczek zapachowych oraz mydeł. Nasza historia zaczęła się z miłości do naturalnych składników i chęci stworzenia produktów, które wprowadzą do domu niepowtarzalny aromat i relaksującą atmosferę.
+              <br><br>
+              Nasze świeczki zapachowe są ręcznie wytwarzane z dbałością o detale. Każdy zapach to unikalna kompozycja, która przenosi Cię w świat aromatycznych podróży. Oferujemy szeroki wybór zapachów, dostosowanych do różnych nastrojów i gustów.
+              <br><br>
+              Mydła Mydlaki to nie tylko produkt pielęgnacyjny, to także rytuał relaksacyjny. Wybieramy tylko najwyższej jakości składniki, aby dostarczyć naszym klientom luksusowe doświadczenie pielęgnacyjne. Każde mydło jest starannie wykonane, aby zapewnić delikatność i nawilżenie skóry.
+              <br><br>
+              Pragniemy, aby nasze produkty przynosiły radość i dodawały wyjątkowego uroku każdemu domowi. Dołącz do nas w podróży przez świat zapachów i naturalnej pielęgnacji.
+              </p>
         </section>
 
 
         <section class="d-flex align-items-center justify-content-center align-middle" id="oferta">
-            <div id="carouselExampleCaptions" class="carousel slide">
+          <h2>Oferta:</h2>
+          <p class="lead">Zanurz się w świecie wyjątkowych aromatów i luksusowej pielęgnacji dzięki ofercie od firmy Mydlaki. Nasze świeczki zapachowe, ręcznie wytwarzane z najwyższej jakości składników, przeniosą Cię w podróż po zmysłach, tworząc niepowtarzalne chwile relaksu.
+          <br><br>
+          Odkryj bogactwo naszej linii mydeł, stworzonych z myślą o delikatnej pielęgnacji Twojej skóry. Każde mydło to wyjątkowe doświadczenie, łączące w sobie naturalność i elegancję.
+          <br><br>            
+          Nasza oferta to nie tylko produkty, to także historia pasji i troski o Twój komfort. Dołącz do Mydlaki i otwórz drzwi do świata, gdzie aromatyczne chwile stają się codziennością.</p>
+            <h4 id="swieczki">Świeczki zapachowe</h4>
+            <div id="swieczkiCarousel" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#swieczkiCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#swieczkiCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#swieczkiCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#swieczkiCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
               
-                <div class="carousel-item active">
-                  <img src="content/img/bialo_szara_swieczka.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h4>Biała świeczka zapachowa</h4>
-                    <p>Coś tu wstaw</p>
+                <div class="carousel-item active text-center">
+                  <img src="content/img/bialo_szara_swieczka.jpg" class="d-block w-100" alt="Biało-szara świeczka zapachowa">
+                  <div class="carousel-caption d-none d-md-block bg-dark bg-gradient bg-opacity-50 rounded">
+                    <h4>Biała świeczka zapachowa...<span class="badge bg-warning">-10%!</span></h4>
+                    <p class="lead">...o zniewalającym zapachu konwalii!<br>Cena: 22.5zł</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="content/img/jasno_niebieska_swieczka.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Jasno-niebieska świeczka zapachowa</h5>
-                    <p>Coś tu wstaw</p>
+                  <img src="content/img/jasno_niebieska_swieczka.jpg" class="d-block w-100" alt="Jasno-niebieska świeczka zapachowa">
+                  <div class="carousel-caption d-none d-md-block bg-dark bg-gradient bg-opacity-50 rounded">
+                    <h4>Jasno-niebieska świeczka zapachowa...</h4>
+                    <p class="lead">...o cudnym kolorze i zapachu niezapominajek!<br>Cena: 25zł</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="content/img/rozowa_swieczka.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Różowa świeczka zapachowa</h5>
-                    <p>Coś tu wstaw</p>
+                  <img src="content/img/niebieska_swieczka.jpg" class="d-block w-100" alt="Różowa świeczka zapachowa">
+                  <div class="carousel-caption d-none d-md-block bg-dark bg-gradient bg-opacity-50 rounded">
+                    <h4>Niebieska świeczka zapachowa...<span class="badge bg-success">Nowość!</span></h4>
+                    <p class="lead">...zapachem i kolorem przypomina len!<br>Cena: 25zł</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="content/img/niebieska_swieczka.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Różowa świeczka zapachowa</h5>
-                    <p>Coś tu wstaw</p>
+                  <img src="content/img/rozowa_swieczka.jpg" class="d-block w-100" alt="Niebieska świeczka zapachowa">
+                  <div class="carousel-caption d-none d-md-block bg-dark bg-gradient bg-opacity-50 rounded">
+                    <h4>Różowa świeczka zapachowa...<span class="badge bg-success">Nowość!</span></h4>
+                    <p class="lead">...pachnąca różą to prawdziwa uczta dla zmysłów!<br>Cena: 25zł</p>
                   </div>
+                </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <button class="carousel-control-prev" type="button" data-bs-target="#swieczkiCarousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <button class="carousel-control-next" type="button" data-bs-target="#swieczkiCarousel" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
+
+
+            <h4 id="mydla">Mydła</h4>
+            <div class="card align-items-center">      
+              <img src="content/img/zielone_mydlo.jpg" width="500" alt="Obraz przedstawiający zielone mydło ze Stocka">      
+              <div class="card-body">
+                <h5 class="card-title">W sprawie mydeł...</h5>
+                <p class="card-text lead">Drodzy klienci!<br>Mydła są chwilowo niedostępne ze względu na awarię podzespołów maszyn je robiących (kolega złamał rękę).<br>Za wszelkie utrudnienia przepraszamy!</p>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" title="Przeprosiny :(" class="btn btn-primary" target="_blank">Wideo z przeprosinami</a>
+              </div>
+            </div>
+            
         </section>
 
 
         <section class="d-flex align-items-center justify-content-center align-middle" id="kontakt">
           <h2 class="">Kontakt</h2>
-          <p class="">
-            Opis - Po co ktoś miałby się kontaktować, co można załatwić itd.
+          <p class="lead">
+            Skontaktuj się z Nami!<br>
+            Jesteśmy gotowi odpowiedzieć na Twoje pytania i zrealizować Twoje zamówienie. Nie wahaj się skontaktować z nami, jeśli potrzebujesz dodatkowych informacji, porad dotyczących naszych produktów lub po prostu chcesz podzielić się swoimi wrażeniami!
+            <ul class="lead">
+              <li><b>Telefon:</b> +48 123 456 789</li>
+              <li><b>E-mail:</b> mydlaki@test.pl<br><br></li>
+              <li>
+                <b>Nasze Biuro:</b><br>
+                ul. Szkolna<br>
+                16-001 Księżyno<br><br>
+                </li>
+                <li>
+                <b>Godziny Otwarcia:</b><br>
+                Poniedziałek - Piątek: 9:00 - 17:00<br>
+                Sobota: 10:00 - 14:00<br>
+                Niedziela: Zamknięte<br><br>
+              </li>
+            </ul>
+
           </p>
-          <ul>
-            <li>Telefon: +48 123 456 789</li>
-            <li>E-mail: test@test.pl</li>
-          </ul>
+
+
+
       </section>
 
 
       <section class="d-flex align-items-center justify-content-center" id="sociale">
         <h2 class="">Social media</h2>
-        <p class="">Krótki opis co na tych social mediach zamieszczacie</p>
+        <p class="lead">Dołącz do naszych mediów społecznościowych, aby być na bieżąco z naszymi nowościami i inspiracjami!<br>Dodatkowo, tylko tam znajdziesz kody rabatowe nawet do -25% :D</p>
         <ul>
-          <li>Facebook: <a href="tu wklej link">klik</a></li>
-          <li>Instagram: <a href="tu wklej link">klik</a></li>
-          <li>X (dawniej Twitter): <a href="tu wklej link">klik</a></li>
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=61551936844813" title="Facebook firmy Mydlaki" target="_blank">
+              <img src="content/img/facebook.svg" width="50" alt="Facebook firmy Mydlaki"></a>
+              Mydlaki Firma
+            </li>
+          <li>
+            <a href="https://www.instagram.com/mydlaki.pl_/" title="Instagram firmy Mydlaki" target="_blank"><img src="content/img/instagram.svg" width="50" alt="Instagram firmy Mydlaki"></a>
+            Mydlaki
+          </li>
         </ul>
     </section>
 
 
-    <section class="d-flex align-items-center justify-content-center">
+    <section class="d-flex align-items-center justify-content-center" id="faq">
+      <h2>FAQ</h2>
       <div class="accordion accordion-flush" id="accordionFlushExample">
-        <div class="accordion-item">
+        <div class="accordion-item active">
           <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-              Accordion Item #1
+              Kto jest najprzystojniejszy z waszej firmy????
             </button>
           </h2>
           <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+            <div class="accordion-body">
+              Nasz główny programista - Piotrek :)
+            </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-              Accordion Item #2
+              Dlaczego tak drogo???
             </button>
           </h2>
           <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+            <div class="accordion-body">
+              Jeśli macie państwo obiekcje co do naszych cen,<br>zapraszamy do obejrzenia filmu:<br>
+              <a href="https://www.youtube.com/watch?v=VdSd3QVIn90" title="Tanio trzeba żyć" target="_blank">klik</a>
+            </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-              Accordion Item #3
+              Dlaczego macie tak mało produktów???
             </button>
           </h2>
           <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+            <div class="accordion-body">Ze względu na ograniczony budżet</div>
           </div>
         </div>
       </div>
     </section>
     </main>
-    <footer>
-        <div class="conainer">
-            <h4>Made by: Piotr Jarzęmbski</h4>
-        </div>
+    <footer class="text-center rounded-top">
+      <h4>Made by:<br>Piotr Jarzęmbski
+        &nbsp;<a href="https://github.com/piotrjarz" target="_blank" title="GitHub"><img src="content/img/github.svg" width="25" height="25" ></a>&nbsp;
+        <a href="https://www.linkedin.com/in/piotr-jarz%C4%99mbski-59845627a/" target="_blank" title="LinkedIn"><img src="content/img/linkedin.svg" width="25" height="25"></a>
+      </h4>
     </footer>
   <!-- Bootstrap JS and dependencies -->
 </body>
