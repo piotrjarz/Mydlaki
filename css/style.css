@@ -1,0 +1,48 @@
+:root{
+    --dark_purple: #3B252C;
+    --pomp_and_powder: #8F6593;
+    --rose_quartz: #AEA4BF;
+    --silver: #CDCDCD;
+    --albaster: #E3E4DB;
+}
+
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    background-color: var(--dark_purple);
+}
+
+main{
+    background-color: var(--albaster);
+    width: 80%;
+    margin: 0% 10%;
+}
+
+section{
+    width: 80%;
+    margin: 2% 10%;
+    flex-direction: column;
+}
+
+.carousel{
+    max-width: 80%;
+}
+header{
+  background-color: var(--pomp_and_powder);
+}
+
+header a{
+    color: var(--dark_purple);
+}
+
+header a:hover{
+    color: var(--silver);
+}
+
+footer{
+    background-color: var(--pomp_and_powder);
+    color: var(--albaster);
+}
